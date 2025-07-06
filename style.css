@@ -52,6 +52,7 @@ body {
 
 .vintage-main {
   display: flex;
+  flex-direction: row-reverse; /* Sidebar now on the right */
   width: 90%;
   margin: 30px auto;
   background: #fff;
@@ -98,6 +99,8 @@ body {
   flex: 1;
   padding: 30px 40px;
   font-size: 1.1em;
+  border: 4px groove #FFD700;
+  background: #F5F5DC;
 }
 
 .vintage-content img {
