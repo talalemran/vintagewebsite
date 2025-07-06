@@ -6,25 +6,17 @@ body {
   padding: 0;
 }
 
-.main-table {
-  width: 80%;
-  margin: 30px auto;
-  border: 3px solid #000080;
-  background: #fff;
-  box-shadow: 0 0 20px #333;
-}
-
-.header {
+.vintage-header {
   background: #000080;
   color: #fff;
-  padding: 10px;
+  padding: 18px 30px;
   font-size: 2em;
-  text-align: left;
+  display: flex;
+  align-items: center;
   border-bottom: 3px double #FFD700;
 }
 
 .logo {
-  vertical-align: middle;
   margin-right: 20px;
   border: 2px solid #FFD700;
   background: #fff;
@@ -35,40 +27,80 @@ body {
   letter-spacing: 2px;
 }
 
-.menu {
-  width: 180px;
+.vintage-navbar {
+  background: #FFD700;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 2px solid #000080;
+}
+
+.vintage-navbar a {
+  color: #000080;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 18px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 1.1em;
+}
+
+.vintage-navbar a:hover {
+  background: #000080;
+  color: #FFD700;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.vintage-main {
+  display: flex;
+  width: 90%;
+  margin: 30px auto;
+  background: #fff;
+  border: 3px solid #000080;
+  box-shadow: 0 0 20px #333;
+  min-height: 500px;
+}
+
+.vintage-sidebar {
+  width: 220px;
   background: #C0C0C0;
   border-right: 2px solid #000080;
-  vertical-align: top;
-  padding: 15px 0;
+  padding: 20px 10px;
+  font-size: 1em;
 }
 
-.menu ul {
+.vintage-sidebar h3 {
+  font-size: 1.1em;
+  color: #000080;
+  margin-top: 0;
+}
+
+.vintage-sidebar ul {
   list-style-type: square;
-  padding-left: 20px;
+  padding-left: 18px;
 }
 
-.menu li {
+.vintage-sidebar li {
   margin-bottom: 10px;
 }
 
-.menu a {
+.vintage-sidebar a {
   color: #000080;
   text-decoration: underline;
   font-weight: bold;
 }
 
-.menu a:hover {
+.vintage-sidebar a:hover {
   background: #FFD700;
   color: #000;
 }
 
-.content {
-  padding: 25px;
+.vintage-content {
+  flex: 1;
+  padding: 30px 40px;
   font-size: 1.1em;
 }
 
-.content img {
+.vintage-content img {
   margin-top: 15px;
   border: 2px dotted #000080;
   background: #fff;
@@ -89,7 +121,7 @@ button:hover {
   color: #fff;
 }
 
-.footer {
+.vintage-footer {
   background: #000080;
   color: #FFD700;
   text-align: center;
