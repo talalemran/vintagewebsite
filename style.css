@@ -1,0 +1,100 @@
+body {
+  background: #008080 url('https://www.transparenttextures.com/patterns/old-wall.png');
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.main-table {
+  width: 80%;
+  margin: 30px auto;
+  border: 3px solid #000080;
+  background: #fff;
+  box-shadow: 0 0 20px #333;
+}
+
+.header {
+  background: #000080;
+  color: #fff;
+  padding: 10px;
+  font-size: 2em;
+  text-align: left;
+  border-bottom: 3px double #FFD700;
+}
+
+.logo {
+  vertical-align: middle;
+  margin-right: 20px;
+  border: 2px solid #FFD700;
+  background: #fff;
+}
+
+.site-title {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  letter-spacing: 2px;
+}
+
+.menu {
+  width: 180px;
+  background: #C0C0C0;
+  border-right: 2px solid #000080;
+  vertical-align: top;
+  padding: 15px 0;
+}
+
+.menu ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  color: #000080;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background: #FFD700;
+  color: #000;
+}
+
+.content {
+  padding: 25px;
+  font-size: 1.1em;
+}
+
+.content img {
+  margin-top: 15px;
+  border: 2px dotted #000080;
+  background: #fff;
+}
+
+button {
+  margin-top: 20px;
+  font-size: 1em;
+  background: #FFD700;
+  border: 2px outset #000080;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button:hover {
+  background: #FF69B4;
+  color: #fff;
+}
+
+.footer {
+  background: #000080;
+  color: #FFD700;
+  text-align: center;
+  padding: 8px;
+  font-size: 1em;
+  border-top: 3px double #FFD700;
+  font-family: 'Courier New', Courier, monospace;
+}
