@@ -2,62 +2,109 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Vintage Web 90s Demo</title>
+  <title>Yahoo! 1998 Style Demo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="vintage-header">
-    <img src="./img/1990s-logo.png" width="180" alt="Vintage Logo" class="logo">
-    <span class="site-title">Welcome to My 90s Website!</span>
+  <div class="yahoo-header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Yahoo%21_logo_1996.png" alt="Yahoo! Logo" class="yahoo-logo">
+    <span class="yahoo-title">Yahoo!</span>
+    <form class="yahoo-search" onsubmit="alert('Searching for: ' + this.q.value); return false;">
+      <input type="text" name="q" size="25" placeholder="Search the Web">
+      <input type="submit" value="Search">
+    </form>
   </div>
-  <div class="vintage-navbar">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Gallery</a>
-    <a href="#">Contact</a>
+  <div class="yahoo-navbar">
+    <a href="#">Yahoo! Mail</a>
+    <a href="#">News</a>
+    <a href="#">Sports</a>
+    <a href="#">Finance</a>
+    <a href="#">Weather</a>
+    <a href="#">Games</a>
+    <a href="#">Shopping</a>
+    <a href="#">More...</a>
   </div>
-  <div class="vintage-main">
-    <div class="vintage-sidebar">
-      <h3>Quick Links</h3>
+  <div class="yahoo-main">
+    <div class="yahoo-left">
+      <h3>Yahoo! Sites</h3>
       <ul>
-        <li><a href="https://www.yahoo.com" target="_blank">Yahoo!</a></li>
-        <li><a href="https://www.geocities.ws" target="_blank">GeoCities</a></li>
-        <li><a href="https://www.angelfire.com/retro" target="_blank">Angelfire Retro</a></li>
+        <li><a href="#">Yahoo! Mail</a></li>
+        <li><a href="#">Yahoo! Messenger</a></li>
+        <li><a href="#">Yahoo! Chat</a></li>
+        <li><a href="#">Yahoo! Auctions</a></li>
+        <li><a href="#">Yahoo! Classifieds</a></li>
+        <li><a href="#">Yahoo! Travel</a></li>
       </ul>
       <hr>
-      <h3>What's New?</h3>
+      <h3>Cool Links</h3>
       <ul>
-        <li>🌟 <b>New!</b> Guestbook is now open. <a href="#">Sign it!</a></li>
-        <li>🖼️ <a href="#">Gallery</a> for cool GIFs.</li>
-        <li>💾 <a href="#">Free screensaver</a></li>
+        <li><a href="https://www.geocities.ws" target="_blank">GeoCities</a></li>
+        <li><a href="https://www.angelfire.com/retro" target="_blank">Angelfire</a></li>
+        <li><a href="https://www.altavista.com" target="_blank">AltaVista</a></li>
       </ul>
     </div>
-    <div class="vintage-content">
-      <h1>Demo Content</h1>
-      <marquee behavior="alternate" bgcolor="#FFFF99" width="90%">Welcome to the 90s web experience!</marquee>
-      <p>
-        This is a sample paragraph with <b>bold</b> and <i>italic</i> text.<br>
-        <font color="red">Enjoy the retro vibes!</font>
-      </p>
-      <img src="https://www.angelfire.com/retro/animated-gif.gif" alt="Dancing Baby" width="100">
-      <button onclick="showAlert()">Click Me!</button>
+    <div class="yahoo-center">
+      <h1>Welcome to Yahoo! (Demo 1998)</h1>
+      <marquee bgcolor="#ffffcc" width="95%">Breaking: This is a 1998-style Yahoo! homepage demo!</marquee>
+      <table class="yahoo-directory">
+        <tr>
+          <td><a href="#">Arts &amp; Humanities</a></td>
+          <td><a href="#">Business &amp; Economy</a></td>
+          <td><a href="#">Computers &amp; Internet</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Education</a></td>
+          <td><a href="#">Entertainment</a></td>
+          <td><a href="#">Government</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Health</a></td>
+          <td><a href="#">News &amp; Media</a></td>
+          <td><a href="#">Recreation &amp; Sports</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Reference</a></td>
+          <td><a href="#">Regional</a></td>
+          <td><a href="#">Science</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Shopping</a></td>
+          <td><a href="#">Society &amp; Culture</a></td>
+          <td><a href="#">Travel</a></td>
+        </tr>
+      </table>
+      <hr>
+      <h2>Today's Highlights</h2>
+      <ul>
+        <li><b>Hot!</b> <a href="#">Check your Yahoo! Mail</a></li>
+        <li><b>New!</b> <a href="#">Try Yahoo! Messenger</a></li>
+        <li><a href="#">Play Yahoo! Games</a></li>
+      </ul>
       <hr>
       <center>
         <img src="https://www.gifcities.org/media/angel/geocities/HeartLine.gif" alt="Divider" width="300"><br>
         <img src="https://www.gifcities.org/media/angel/geocities/UnderConstruction.gif" alt="Under Construction" width="120">
       </center>
+    </div>
+    <div class="yahoo-right">
+      <h3>What's New?</h3>
+      <ul>
+        <li>🌟 <b>Guestbook</b> is now open. <a href="#">Sign it!</a></li>
+        <li>🖼️ <a href="#">Gallery</a> for cool GIFs.</li>
+        <li>💾 <a href="#">Free screensaver</a></li>
+      </ul>
       <hr>
-      <h2>Sign the Guestbook</h2>
+      <h3>Sign the Guestbook</h3>
       <form onsubmit="return guestbookSubmit();">
-        <label>Name: <input type="text" name="name" required></label><br>
-        <label>Message: <input type="text" name="message" required></label><br>
+        <label>Name:<br><input type="text" name="name" required></label><br>
+        <label>Message:<br><input type="text" name="message" required></label><br>
         <input type="submit" value="Sign Now!">
       </form>
       <div id="guestbook-entries"></div>
     </div>
   </div>
-  <div class="vintage-footer">
-    &copy; 1999-2025 Vintage Web. Best viewed in Netscape Navigator 4.0!
+  <div class="yahoo-footer">
+    &copy; 1998-2025 Yahoo! Demo. Best viewed in Netscape Navigator 4.0!
   </div>
   <script src="script.js"></script>
 </body>
